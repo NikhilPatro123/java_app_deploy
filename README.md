@@ -10,11 +10,11 @@ The recommended git tool is: NONE
 No credentials specified
  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/deploy-1/.git # timeout=10
 Fetching changes from the remote Git repository
- > git config remote.origin.url https://github.com/NikhilPatro123/web-appn.git # timeout=10
-Fetching upstream changes from https://github.com/NikhilPatro123/web-appn.git
+ > git config remote.origin.url https://github.com/NikhilPatro123/java_app_deploy.git # timeout=10
+Fetching upstream changes from https://github.com/NikhilPatro123/java_app_deploy.git
  > git --version # timeout=10
  > git --version # 'git version 2.50.1'
- > git fetch --tags --force --progress -- https://github.com/NikhilPatro123/web-appn.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/NikhilPatro123/java_app_deploy.git +refs/heads/*:refs/remotes/origin/* # timeout=10
  > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
 Checking out Revision 1ef7d8027a8314d9951107c1a716fd4b79c6b86e (refs/remotes/origin/master)
  > git config core.sparsecheckout # timeout=10
